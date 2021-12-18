@@ -21,7 +21,7 @@ GPL-2.0 License
 ・ブレッドボード  
 ・ジャンパケーブル（オス-メス） 2個  
 ・LED  
-・抵抗（???Ω）  
+・抵抗（300Ω）橙黒茶金  
 
 ## 回路図
 ・ラズパイ4のGPIO25（22番ピン）とGND（39番ピン）の間にLEDと抵抗を接続  
@@ -29,7 +29,18 @@ GPL-2.0 License
 後ほど写真を記載します。
 
 # インストール方法
-GitHubからcloneした後、下記の順に従って入力することでLEDを点灯・消灯させる事ができます。
+GitHubからcloneした後、下記の順に従って入力することでLEDを点灯・消灯させる事ができます。  
+ls  
+cd robosys_Kadai1_2/  
+ls  
+make  
+sudo insmod myled.ko  
+sudo chmod 666 /dev/myled0  
+
+LEDを点灯するためには  
+echo 1 > /dev/myled0　と入力し  
+LEDを消灯するためには  
+echo 0 > /dev/myled0　と入力してください
 
 
 # 参考
@@ -48,15 +59,16 @@ Git, GitHubについて
 ・[ファイルの名前を変更する - GitHub Docs](https://docs.github.com/ja/repositories/working-with-files/managing-files/renaming-a-file)  
 ・[GitHub — READMEの作成方法と書き方【改行やリンク・画像の入れ方】| Howpon[ハウポン]](https://howpon.com/8334)  
 ・pushの仕方をお教えいただいたyuzukiimaiさんのリポジトリは[こちら](https://github.com/yuzukiimai/robosys1)になります。  
-  【経緯】  
-      ・robosys_Kadai1のリポジトリに修正したコードをpushする際、GitHubに上手くpushできないという事態が発生したため、yuzukiimaiさんにpushの仕方をお教えいただきました。
+### 【yuzukiimaiさんにお教えいただいた経緯と手順について】  
+robosys_Kadai1のリポジトリに修正したコードをpushする際、GitHubに上手くpushできないという事態が発生したため、yuzukiimaiさんにpushの仕方をお教えいただきました。yuzukiimaiさんにお教えいただいていた手順のURLは以下のものです。  
+・[(Git) git init ~ git push で詰まった話。めっちゃrejectされる | hara-chan.com](https://hara-chan.com/it/programming/git-push-rejected/)
 
 
 ### READMEについて
 ・どのように書けば良いかの参考として、コードの著者[Ryuichi Ueda](https://github.com/ryuichiueda)のREADMEをいくつか拝見し、このREADMEを書きました  
 ・何を書いたのかを話した友人のリポジトリは [こちら](https://github.com/NagashimaKousei/robosys_1)になります  
-  【READMEについて友人と話した経緯】  
-    課題の一回目の提出終了後、その友人と「どんなこと書いた？」というような会話になり、使用する（した）もの・機器を、私は一回目の提出時までに書いていなかったので、その友人の言葉を参考にし、記載しました。
+### 【READMEについて友人と話した経緯】  
+課題の一回目の提出終了後、その友人と「どんなこと書いた？」というような会話になり、使用する（した）もの・機器を、私は一回目の提出時までに書いていなかったので、その友人の言葉を参考にし、記載しました。
 
 
 ## 必要となる道具とその扱い方について
