@@ -4,8 +4,6 @@ This is a repository for robosys Kadai1 version 2.
 # このリポジトリについて
 　robosys_Kadai1のリポジトリを作成していましたが、上手く作成することができなかった箇所があったので、二つ目のものを作成しました。そのため、[robosys_Kadai1](https://github.com/ryunosukesato/robosys_Kadai1)のリポジトリの訂正版となっています。それに伴い、このREADMEは私のrobosys_Kadai1のリポジトリの作成途中のREADMEからコピーアンドペーストした部分が大半になっています。
 
-# 編集中のリポジトリです。
-
 # License（ライセンス）
 GPL-2.0 License
 
