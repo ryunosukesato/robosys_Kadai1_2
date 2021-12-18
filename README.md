@@ -58,7 +58,7 @@ Git, GitHubについて
 ・[GitHub — READMEの作成方法と書き方【改行やリンク・画像の入れ方】| Howpon[ハウポン]](https://howpon.com/8334)  
 ・pushの仕方をお教えいただいたyuzukiimaiさんのリポジトリは[こちら](https://github.com/yuzukiimai/robosys1)になります。  
 ### 【yuzukiimaiさんにお教えいただいた経緯と手順について】  
-robosys_Kadai1のリポジトリに修正したコードをpushする際、GitHubに上手くpushできないという事態が発生したため、yuzukiimaiさんにpushの仕方をお教えいただきました。yuzukiimaiさんにお教えいただいていた手順のURLは以下のものです。  
+robosys_Kadai1のリポジトリに修正したコードをpushする際、GitHubに上手くpushできないという事態が発生したため、yuzukiimaiさんにpushの仕方をお教えいただきました。yuzukiimaiさんにお教えいただいていた手順を示すURLは以下のものです。  
 ・[(Git) git init ~ git push で詰まった話。めっちゃrejectされる | hara-chan.com](https://hara-chan.com/it/programming/git-push-rejected/)
 
 
