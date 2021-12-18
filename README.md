@@ -27,7 +27,7 @@ GPL-2.0 License
 [回路図](./%E8%AA%B2%E9%A1%8C1.jpg)
 
 # インストール方法
-GitHubからcloneした後、下記の順に従って入力することでLEDを点灯・消灯させる事ができます。  
+GitHubからこのリポジトリをcloneした後、下記の順に従って入力することでLEDを点灯・消灯させる事ができます。  
 ls  
 cd robosys_Kadai1_2/  
 ls  
